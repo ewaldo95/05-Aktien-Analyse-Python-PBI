@@ -20,7 +20,9 @@ df['Sum Monat'] = df.groupby(df['Period'])['Close'].transform('mean')
 
 df = pd.DataFrame(df)
 
-df.to_csv('/Users/ewaldofischer/Desktop/Projekt/Data Analyst/Projekt Porfolio/Aktien Projekt/ORACLE_Export.csv', index=False, sep=';')
+df.to_csv('/Users/ewaldofischer/Desktop/Projekt/Data Analyst/Projekt Porfolio/Aktien Projekt/ORACLE_Export.csv', index=False, sep=';' , encoding='utf-8')
+
+df.to_excel('/Users/ewaldofischer/Desktop/Projekt/Data Analyst/Projekt Porfolio/Aktien Projekt/ORACLE_Export.xlsx', index=False)
 
 print(df)
 
