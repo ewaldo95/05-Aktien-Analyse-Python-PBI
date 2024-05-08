@@ -3,3 +3,5 @@ https://de.finance.yahoo.com/quote/IBM/history?period1=1138665600&period2=171192
 Daten alle drei Unternehmen: Salesforce, SAP und Oracle.
 
 von 01.02.2023 bis 01.04.2024
+
+https://www.ibm.com/design/language/color/
